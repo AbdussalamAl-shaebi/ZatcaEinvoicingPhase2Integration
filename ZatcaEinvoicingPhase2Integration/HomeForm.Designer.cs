@@ -31,34 +31,35 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label19 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.label18 = new System.Windows.Forms.Label();
-            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.txtResult = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.txtPublicKey = new System.Windows.Forms.TextBox();
+            this.lbl100 = new System.Windows.Forms.Label();
+            this.txtPrivateKey = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.txtCSR = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.txtOTP = new System.Windows.Forms.TextBox();
+            this.combInvoiceType = new System.Windows.Forms.ComboBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.txtIndustry = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.txtAddress = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtOrganizationName = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtOrganizationUnitName = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtVatNumber = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtSerialNumber = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtCommonName = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -68,7 +69,6 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.SuspendLayout();
@@ -89,7 +89,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 26);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(801, 518);
+            this.tabPage1.Size = new System.Drawing.Size(798, 585);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -99,32 +99,32 @@
             this.tabPage2.Controls.Add(this.label19);
             this.tabPage2.Controls.Add(this.button2);
             this.tabPage2.Controls.Add(this.label18);
-            this.tabPage2.Controls.Add(this.textBox16);
+            this.tabPage2.Controls.Add(this.txtResult);
             this.tabPage2.Controls.Add(this.label17);
-            this.tabPage2.Controls.Add(this.textBox15);
-            this.tabPage2.Controls.Add(this.label16);
-            this.tabPage2.Controls.Add(this.textBox14);
+            this.tabPage2.Controls.Add(this.txtPublicKey);
+            this.tabPage2.Controls.Add(this.lbl100);
+            this.tabPage2.Controls.Add(this.txtPrivateKey);
             this.tabPage2.Controls.Add(this.label15);
-            this.tabPage2.Controls.Add(this.textBox13);
+            this.tabPage2.Controls.Add(this.txtCSR);
             this.tabPage2.Controls.Add(this.button1);
             this.tabPage2.Controls.Add(this.label14);
-            this.tabPage2.Controls.Add(this.textBox12);
-            this.tabPage2.Controls.Add(this.comboBox1);
+            this.tabPage2.Controls.Add(this.txtOTP);
+            this.tabPage2.Controls.Add(this.combInvoiceType);
             this.tabPage2.Controls.Add(this.label13);
             this.tabPage2.Controls.Add(this.label12);
-            this.tabPage2.Controls.Add(this.textBox11);
+            this.tabPage2.Controls.Add(this.txtIndustry);
             this.tabPage2.Controls.Add(this.label11);
-            this.tabPage2.Controls.Add(this.textBox10);
+            this.tabPage2.Controls.Add(this.txtAddress);
             this.tabPage2.Controls.Add(this.label10);
-            this.tabPage2.Controls.Add(this.textBox9);
+            this.tabPage2.Controls.Add(this.txtOrganizationName);
             this.tabPage2.Controls.Add(this.label9);
-            this.tabPage2.Controls.Add(this.textBox8);
+            this.tabPage2.Controls.Add(this.txtOrganizationUnitName);
             this.tabPage2.Controls.Add(this.label8);
-            this.tabPage2.Controls.Add(this.textBox7);
+            this.tabPage2.Controls.Add(this.txtVatNumber);
             this.tabPage2.Controls.Add(this.label7);
-            this.tabPage2.Controls.Add(this.textBox6);
+            this.tabPage2.Controls.Add(this.txtSerialNumber);
             this.tabPage2.Controls.Add(this.label6);
-            this.tabPage2.Controls.Add(this.textBox5);
+            this.tabPage2.Controls.Add(this.txtCommonName);
             this.tabPage2.Controls.Add(this.textBox4);
             this.tabPage2.Controls.Add(this.label5);
             this.tabPage2.Controls.Add(this.textBox3);
@@ -141,6 +141,17 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Submit CSR";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label19.Location = new System.Drawing.Point(4, 297);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(709, 17);
+            this.label19.TabIndex = 37;
+            this.label19.Text = "1- Generate Private Key 2-2 Generate Public Key 3-Generate a Certificate Signing " +
+    "Request 4-Submit and Get Result";
             // 
             // button2
             // 
@@ -164,51 +175,51 @@
             this.label18.Text = "X509 Compliance Cryptographic Stamp Identifier\r\n(CCSID/Certificate) (CSID) \r\nbase" +
     "d on submitted CSR result:";
             // 
-            // textBox16
+            // txtResult
             // 
-            this.textBox16.Location = new System.Drawing.Point(507, 486);
-            this.textBox16.Multiline = true;
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(279, 89);
-            this.textBox16.TabIndex = 34;
-            this.textBox16.Tag = "";
-            this.textBox16.WordWrap = false;
+            this.txtResult.Location = new System.Drawing.Point(507, 486);
+            this.txtResult.Multiline = true;
+            this.txtResult.Name = "txtResult";
+            this.txtResult.Size = new System.Drawing.Size(279, 89);
+            this.txtResult.TabIndex = 34;
+            this.txtResult.Tag = "";
+            this.txtResult.WordWrap = false;
             // 
             // label17
             // 
             this.label17.AutoSize = true;
             this.label17.Location = new System.Drawing.Point(707, 380);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(72, 17);
+            this.label17.Size = new System.Drawing.Size(67, 17);
             this.label17.TabIndex = 33;
-            this.label17.Text = "Private Key";
+            this.label17.Text = "Public Key";
             // 
-            // textBox15
+            // txtPublicKey
             // 
-            this.textBox15.Location = new System.Drawing.Point(702, 402);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(80, 25);
-            this.textBox15.TabIndex = 32;
-            this.textBox15.Tag = "";
-            this.textBox15.WordWrap = false;
+            this.txtPublicKey.Location = new System.Drawing.Point(702, 402);
+            this.txtPublicKey.Name = "txtPublicKey";
+            this.txtPublicKey.Size = new System.Drawing.Size(80, 25);
+            this.txtPublicKey.TabIndex = 32;
+            this.txtPublicKey.Tag = "";
+            this.txtPublicKey.WordWrap = false;
             // 
-            // label16
+            // lbl100
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(616, 382);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(72, 17);
-            this.label16.TabIndex = 31;
-            this.label16.Text = "Private Key";
+            this.lbl100.AutoSize = true;
+            this.lbl100.Location = new System.Drawing.Point(616, 382);
+            this.lbl100.Name = "lbl100";
+            this.lbl100.Size = new System.Drawing.Size(72, 17);
+            this.lbl100.TabIndex = 31;
+            this.lbl100.Text = "Private Key";
             // 
-            // textBox14
+            // txtPrivateKey
             // 
-            this.textBox14.Location = new System.Drawing.Point(611, 402);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(85, 25);
-            this.textBox14.TabIndex = 30;
-            this.textBox14.Tag = "";
-            this.textBox14.WordWrap = false;
+            this.txtPrivateKey.Location = new System.Drawing.Point(611, 402);
+            this.txtPrivateKey.Name = "txtPrivateKey";
+            this.txtPrivateKey.Size = new System.Drawing.Size(85, 25);
+            this.txtPrivateKey.TabIndex = 30;
+            this.txtPrivateKey.Tag = "";
+            this.txtPrivateKey.WordWrap = false;
             // 
             // label15
             // 
@@ -219,14 +230,14 @@
             this.label15.TabIndex = 29;
             this.label15.Text = "CSR";
             // 
-            // textBox13
+            // txtCSR
             // 
-            this.textBox13.Location = new System.Drawing.Point(507, 401);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(98, 25);
-            this.textBox13.TabIndex = 28;
-            this.textBox13.Tag = "";
-            this.textBox13.WordWrap = false;
+            this.txtCSR.Location = new System.Drawing.Point(507, 401);
+            this.txtCSR.Name = "txtCSR";
+            this.txtCSR.Size = new System.Drawing.Size(98, 25);
+            this.txtCSR.TabIndex = 28;
+            this.txtCSR.Tag = "";
+            this.txtCSR.WordWrap = false;
             // 
             // button1
             // 
@@ -246,22 +257,22 @@
             this.label14.TabIndex = 26;
             this.label14.Text = "OTP";
             // 
-            // textBox12
+            // txtOTP
             // 
-            this.textBox12.Location = new System.Drawing.Point(343, 516);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(147, 25);
-            this.textBox12.TabIndex = 25;
-            this.textBox12.Tag = "";
-            this.textBox12.WordWrap = false;
+            this.txtOTP.Location = new System.Drawing.Point(343, 516);
+            this.txtOTP.Name = "txtOTP";
+            this.txtOTP.Size = new System.Drawing.Size(147, 25);
+            this.txtOTP.TabIndex = 25;
+            this.txtOTP.Tag = "";
+            this.txtOTP.WordWrap = false;
             // 
-            // comboBox1
+            // combInvoiceType
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(175, 516);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(73, 25);
-            this.comboBox1.TabIndex = 24;
+            this.combInvoiceType.FormattingEnabled = true;
+            this.combInvoiceType.Location = new System.Drawing.Point(175, 516);
+            this.combInvoiceType.Name = "combInvoiceType";
+            this.combInvoiceType.Size = new System.Drawing.Size(73, 25);
+            this.combInvoiceType.TabIndex = 24;
             // 
             // label13
             // 
@@ -281,14 +292,14 @@
             this.label12.TabIndex = 22;
             this.label12.Text = "businessCategory, Industry or Sector نوع النشاط او القطاع";
             // 
-            // textBox11
+            // txtIndustry
             // 
-            this.textBox11.Location = new System.Drawing.Point(343, 485);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(147, 25);
-            this.textBox11.TabIndex = 21;
-            this.textBox11.Tag = "";
-            this.textBox11.WordWrap = false;
+            this.txtIndustry.Location = new System.Drawing.Point(343, 485);
+            this.txtIndustry.Name = "txtIndustry";
+            this.txtIndustry.Size = new System.Drawing.Size(147, 25);
+            this.txtIndustry.TabIndex = 21;
+            this.txtIndustry.Tag = "";
+            this.txtIndustry.WordWrap = false;
             // 
             // label11
             // 
@@ -299,14 +310,14 @@
             this.label11.TabIndex = 20;
             this.label11.Text = "registeredAddress, Address العنوان";
             // 
-            // textBox10
+            // txtAddress
             // 
-            this.textBox10.Location = new System.Drawing.Point(6, 402);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(243, 25);
-            this.textBox10.TabIndex = 19;
-            this.textBox10.Tag = "";
-            this.textBox10.WordWrap = false;
+            this.txtAddress.Location = new System.Drawing.Point(6, 402);
+            this.txtAddress.Name = "txtAddress";
+            this.txtAddress.Size = new System.Drawing.Size(243, 25);
+            this.txtAddress.TabIndex = 19;
+            this.txtAddress.Tag = "";
+            this.txtAddress.WordWrap = false;
             // 
             // label10
             // 
@@ -317,14 +328,14 @@
             this.label10.TabIndex = 18;
             this.label10.Text = "O. Organization Name اسم المنشاءة";
             // 
-            // textBox9
+            // txtOrganizationName
             // 
-            this.textBox9.Location = new System.Drawing.Point(4, 351);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(245, 25);
-            this.textBox9.TabIndex = 17;
-            this.textBox9.Tag = "";
-            this.textBox9.WordWrap = false;
+            this.txtOrganizationName.Location = new System.Drawing.Point(4, 351);
+            this.txtOrganizationName.Name = "txtOrganizationName";
+            this.txtOrganizationName.Size = new System.Drawing.Size(245, 25);
+            this.txtOrganizationName.TabIndex = 17;
+            this.txtOrganizationName.Tag = "";
+            this.txtOrganizationName.WordWrap = false;
             // 
             // label9
             // 
@@ -333,34 +344,34 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(237, 17);
             this.label9.TabIndex = 16;
-            this.label9.Text = "OU. Organization Name Unit اسم الفرع*";
+            this.label9.Text = "OU. Organization Unit Name اسم الفرع*";
             // 
-            // textBox8
+            // txtOrganizationUnitName
             // 
-            this.textBox8.Location = new System.Drawing.Point(255, 351);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(234, 25);
-            this.textBox8.TabIndex = 15;
-            this.textBox8.Tag = "";
-            this.textBox8.WordWrap = false;
+            this.txtOrganizationUnitName.Location = new System.Drawing.Point(255, 351);
+            this.txtOrganizationUnitName.Name = "txtOrganizationUnitName";
+            this.txtOrganizationUnitName.Size = new System.Drawing.Size(234, 25);
+            this.txtOrganizationUnitName.TabIndex = 15;
+            this.txtOrganizationUnitName.Tag = "";
+            this.txtOrganizationUnitName.WordWrap = false;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(269, 380);
+            this.label8.Location = new System.Drawing.Point(270, 382);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(187, 17);
             this.label8.TabIndex = 14;
             this.label8.Text = "UID. VAT Number الرقم الضريبي";
             // 
-            // textBox7
+            // txtVatNumber
             // 
-            this.textBox7.Location = new System.Drawing.Point(255, 401);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(234, 25);
-            this.textBox7.TabIndex = 13;
-            this.textBox7.Tag = "";
-            this.textBox7.WordWrap = false;
+            this.txtVatNumber.Location = new System.Drawing.Point(255, 403);
+            this.txtVatNumber.Name = "txtVatNumber";
+            this.txtVatNumber.Size = new System.Drawing.Size(234, 25);
+            this.txtVatNumber.TabIndex = 13;
+            this.txtVatNumber.Tag = "";
+            this.txtVatNumber.WordWrap = false;
             // 
             // label7
             // 
@@ -371,14 +382,14 @@
             this.label7.TabIndex = 12;
             this.label7.Text = "SN. EGS Serial Number معرف الحل التقني";
             // 
-            // textBox6
+            // txtSerialNumber
             // 
-            this.textBox6.Location = new System.Drawing.Point(6, 451);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(243, 25);
-            this.textBox6.TabIndex = 11;
-            this.textBox6.Tag = "";
-            this.textBox6.WordWrap = false;
+            this.txtSerialNumber.Location = new System.Drawing.Point(6, 451);
+            this.txtSerialNumber.Name = "txtSerialNumber";
+            this.txtSerialNumber.Size = new System.Drawing.Size(243, 25);
+            this.txtSerialNumber.TabIndex = 11;
+            this.txtSerialNumber.Tag = "";
+            this.txtSerialNumber.WordWrap = false;
             // 
             // label6
             // 
@@ -389,14 +400,14 @@
             this.label6.TabIndex = 10;
             this.label6.Text = "CN. Common Name معرف نقطة البيع";
             // 
-            // textBox5
+            // txtCommonName
             // 
-            this.textBox5.Location = new System.Drawing.Point(255, 451);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(234, 25);
-            this.textBox5.TabIndex = 9;
-            this.textBox5.Tag = "";
-            this.textBox5.WordWrap = false;
+            this.txtCommonName.Location = new System.Drawing.Point(255, 451);
+            this.txtCommonName.Name = "txtCommonName";
+            this.txtCommonName.Size = new System.Drawing.Size(234, 25);
+            this.txtCommonName.TabIndex = 9;
+            this.txtCommonName.Tag = "";
+            this.txtCommonName.WordWrap = false;
             // 
             // textBox4
             // 
@@ -483,17 +494,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "ZATCA Electronic Invoice Security Features Implementation Standards";
             // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label19.Location = new System.Drawing.Point(4, 297);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(709, 17);
-            this.label19.TabIndex = 37;
-            this.label19.Text = "1- Generate Private Key 2-2 Generate Public Key 3-Generate a Certificate Signing " +
-    "Request 4-Submit and Get Result";
-            // 
             // HomeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -525,32 +525,32 @@
         private TextBox textBox4;
         private Label label5;
         private Label label15;
-        private TextBox textBox13;
+        private TextBox txtCSR;
         private Button button1;
         private Label label14;
-        private TextBox textBox12;
-        private ComboBox comboBox1;
+        private TextBox txtOTP;
+        private ComboBox combInvoiceType;
         private Label label13;
         private Label label12;
-        private TextBox textBox11;
+        private TextBox txtIndustry;
         private Label label11;
-        private TextBox textBox10;
+        private TextBox txtAddress;
         private Label label10;
-        private TextBox textBox9;
+        private TextBox txtOrganizationName;
         private Label label9;
-        private TextBox textBox8;
+        private TextBox txtOrganizationUnitName;
         private Label label8;
-        private TextBox textBox7;
+        private TextBox txtVatNumber;
         private Label label7;
-        private TextBox textBox6;
+        private TextBox txtSerialNumber;
         private Label label6;
-        private TextBox textBox5;
+        private TextBox txtCommonName;
         private Label label18;
-        private TextBox textBox16;
+        private TextBox txtResult;
         private Label label17;
-        private TextBox textBox15;
-        private Label label16;
-        private TextBox textBox14;
+        private TextBox txtPublicKey;
+        private Label lbl100;
+        private TextBox txtPrivateKey;
         private Button button2;
         private Label label19;
     }
